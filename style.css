@@ -929,7 +929,7 @@ body.fixed-nav {
     padding-top: 0;
 }
 }
-@media (min-width: 767px) {
+@media (max-width: 767px) {
     .footer-bottom.text-right, .footer-widget, .footer-widget.text-right {
         text-align: center !important;
     }
@@ -940,7 +940,6 @@ body.fixed-nav {
     .footer-widget {
         margin-bottom: 20px;
     }
-
   }
 @media (min-width: 576px) {
   .card-columns {
